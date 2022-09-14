@@ -1,0 +1,8 @@
+
+- Think of a function as the blackbox
+
+Input -> Blackbox (function ) -> Output
+
+- A function can accept a bunch of parameter and return multiple types as output
+
+

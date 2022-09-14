@@ -1,0 +1,10 @@
+- We can express string in go using double quotes "Juicy Fruit" or backticks `Juicy Fruit`
+
+- The main difference is the string in double quotes can contain special 
+  escape sequences. \n -> gets replaced with a new line
+	            \t -> get replaced with a tab character
+
+- common string operations :
+	> len("Numbers")      - finding the lenght of a string
+	> "Numbers"[1]        - accessing an individual character in the string
+	> "Hello " + "Kitty"  - concatenating two strings together

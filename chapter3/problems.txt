@@ -1,0 +1,24 @@
+1. How are integers stored on a computer?
+   - In a base-2 binary system
+   - All integer types have a definate size
+   - A 4 bit integer might look like 0000, 0001, 0010, 0011
+
+   - Go integer types: uint8, uint16, uint32, uint64, int8, int16, int32
+   		       int64. (8,16,32,64 tell us how many bits each of the types useA)A
+
+		       uint - unsigned integer ( only contain positive numbers or zero )
+		       int  - signed integer
+
+  - In addition there are two alias types: byte -> which is same as uint8
+  					
+				           1 byte         = 8 bits
+					   1024 bytes     = 1 kilobyte
+					   1024 kilobytes = 1 megabyte
+
+  					   rune -> which is same as int32
+  - uint, int and uintptr are machine dependant because their size depends
+    on the type of architecture you are using
+
+2. We know that (in base 10) the largest 1 digit number is 9 and the largest 2 digit number is
+99. Given that in binary the largest 2 digit number is 11 (3), the largest 3 digit number is 111 (7)
+and the largest 4 digit number is 1111 (15) what's the largest 8 digit number? (hint (used python conversion): pow(10,1)-1 =9 and pow(10,2)-1 = 99)
